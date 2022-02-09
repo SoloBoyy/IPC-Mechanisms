@@ -37,8 +37,8 @@ The definition of the base classRequestChannel is as follows. Its structure refl
 * “s” for Shared Memory
 
 To request the first 1K ECG data points — of the format (time, ecg1, ecg2) — for the given person through each of those channels:
-* ./client -c <# of new channels> -p <person no> -e <ecg no> -i [f|q|s]
+* ./client -c <# of new channels> -p <person no> -e <ecg no> -i [f | q | s]
   
   And, the following command will get the specified file using the given number of
 channels of type given by “-i”:
-* ./client -c <# of new channels> -f <filename> -i [f|q|s] -m <buffer capacity>
+* ./client -c <# of new channels> -f <filename> -i [f | q | s] -m <buffer capacity>
